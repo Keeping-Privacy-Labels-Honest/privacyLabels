@@ -1,0 +1,75 @@
+{
+  "data": [{
+    "attributes": {
+      "privacyDetails": {
+        "managePrivacyChoicesUrl": null,
+        "privacyTypes": [{
+          "dataCategories": [{
+            "dataCategory": "Standort",
+            "dataTypes": ["Genauer Standort"],
+            "identifier": "LOCATION"
+          }],
+          "description": "Die folgenden Daten werden m?glicherweise verwendet, um dich ?ber Apps und Websites anderer Unternehmen hinweg zu verfolgen:",
+          "identifier": "DATA_USED_TO_TRACK_YOU",
+          "privacyType": "Daten, die zum Tracking deiner Person verwendet werden",
+          "purposes": []
+        }, {
+          "dataCategories": [],
+          "description": "Die folgenden Daten, die zwar m?glicherweise erfasst, aber nicht mit deiner Identit?t verkn?pft werden, k?nnen f?r die folgenden Zwecke verwendet werden:",
+          "identifier": "DATA_NOT_LINKED_TO_YOU",
+          "privacyType": "Nicht mit dir verkn?pfte Daten",
+          "purposes": [{
+            "dataCategories": [{
+              "dataCategory": "Nutzungs?daten",
+              "dataTypes": ["Produkt?interaktion"],
+              "identifier": "USAGE_DATA"
+            }, {
+              "dataCategory": "Diagnose",
+              "dataTypes": ["Crash-Daten", "Leistungsdaten", "Sonstige Diagnosedaten"],
+              "identifier": "DIAGNOSTICS"
+            }],
+            "identifier": "ANALYTICS",
+            "purpose": "Analyse"
+          }, {
+            "dataCategories": [{
+              "dataCategory": "Standort",
+              "dataTypes": ["Genauer Standort"],
+              "identifier": "LOCATION"
+            }, {
+              "dataCategory": "Kennungen",
+              "dataTypes": ["Ger?te-ID"],
+              "identifier": "IDENTIFIERS"
+            }],
+            "identifier": "APP_FUNCTIONALITY",
+            "purpose": "App-Funktionalit?t"
+          }]
+        }]
+      }
+    },
+    "href": "/v1/catalog/de/apps/957377336?l=de-DE",
+    "id": "957377336",
+    "relationships": {
+      "developer": {
+        "data": [{
+          "href": "/v1/catalog/de/developers/631472300?l=de-DE",
+          "id": "631472300",
+          "type": "developers"
+        }],
+        "href": "/v1/catalog/de/apps/957377336/developer?l=de-DE"
+      },
+      "genres": {
+        "data": [{
+          "href": "/v1/catalog/de/genres/6001?l=de-DE",
+          "id": "6001",
+          "type": "genres"
+        }, {
+          "href": "/v1/catalog/de/genres/6009?l=de-DE",
+          "id": "6009",
+          "type": "genres"
+        }],
+        "href": "/v1/catalog/de/apps/957377336/genres?l=de-DE"
+      }
+    },
+    "type": "apps"
+  }]
+}

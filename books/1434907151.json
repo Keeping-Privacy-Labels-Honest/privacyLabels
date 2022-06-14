@@ -1,0 +1,61 @@
+{
+  "data": [{
+    "attributes": {
+      "privacyDetails": {
+        "managePrivacyChoicesUrl": null,
+        "privacyTypes": [{
+          "dataCategories": [],
+          "description": "Die folgenden Daten, die m?glicherweise erfasst und mit deiner Identit?t verkn?pft werden, k?nnen f?r die folgenden Zwecke verwendet werden:",
+          "identifier": "DATA_LINKED_TO_YOU",
+          "privacyType": "Mit dir verkn?pfte Daten",
+          "purposes": [{
+            "dataCategories": [{
+              "dataCategory": "Benutzer?inhalte",
+              "dataTypes": ["Sonstige Benutzerinhalte"],
+              "identifier": "USER_CONTENT"
+            }],
+            "identifier": "THIRD_PARTY_ADVERTISING",
+            "purpose": "Drittanbieter-Werbung"
+          }, {
+            "dataCategories": [{
+              "dataCategory": "Benutzer?inhalte",
+              "dataTypes": ["Sonstige Benutzerinhalte"],
+              "identifier": "USER_CONTENT"
+            }, {
+              "dataCategory": "Kennungen",
+              "dataTypes": ["Benutzer-ID"],
+              "identifier": "IDENTIFIERS"
+            }],
+            "identifier": "APP_FUNCTIONALITY",
+            "purpose": "App-Funktionalit?t"
+          }]
+        }]
+      }
+    },
+    "href": "/v1/catalog/de/apps/1434907151?l=de-DE",
+    "id": "1434907151",
+    "relationships": {
+      "developer": {
+        "data": [{
+          "href": "/v1/catalog/de/developers/1576003236?l=de-DE",
+          "id": "1576003236",
+          "type": "developers"
+        }],
+        "href": "/v1/catalog/de/apps/1434907151/developer?l=de-DE"
+      },
+      "genres": {
+        "data": [{
+          "href": "/v1/catalog/de/genres/6018?l=de-DE",
+          "id": "6018",
+          "type": "genres"
+        }, {
+          "href": "/v1/catalog/de/genres/6012?l=de-DE",
+          "id": "6012",
+          "type": "genres"
+        }],
+        "href": "/v1/catalog/de/apps/1434907151/genres?l=de-DE"
+      }
+    },
+    "type": "apps"
+  }]
+}

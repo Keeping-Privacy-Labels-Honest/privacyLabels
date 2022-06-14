@@ -1,0 +1,45 @@
+{
+  "data": [{
+    "attributes": {
+      "privacyDetails": {
+        "managePrivacyChoicesUrl": null,
+        "privacyTypes": [{
+          "dataCategories": [],
+          "description": "Die folgenden Daten, die zwar m?glicherweise erfasst, aber nicht mit deiner Identit?t verkn?pft werden, k?nnen f?r die folgenden Zwecke verwendet werden:",
+          "identifier": "DATA_NOT_LINKED_TO_YOU",
+          "privacyType": "Nicht mit dir verkn?pfte Daten",
+          "purposes": [{
+            "dataCategories": [{
+              "dataCategory": "Kontakt?informa?tionen",
+              "dataTypes": ["E-Mail-Adresse"],
+              "identifier": "CONTACT_INFO"
+            }],
+            "identifier": "APP_FUNCTIONALITY",
+            "purpose": "App-Funktionalit?t"
+          }]
+        }]
+      }
+    },
+    "href": "/v1/catalog/de/apps/1453823561?l=de-DE",
+    "id": "1453823561",
+    "relationships": {
+      "developer": {
+        "data": [{
+          "href": "/v1/catalog/de/developers/547924599?l=de-DE",
+          "id": "547924599",
+          "type": "developers"
+        }],
+        "href": "/v1/catalog/de/apps/1453823561/developer?l=de-DE"
+      },
+      "genres": {
+        "data": [{
+          "href": "/v1/catalog/de/genres/6017?l=de-DE",
+          "id": "6017",
+          "type": "genres"
+        }],
+        "href": "/v1/catalog/de/apps/1453823561/genres?l=de-DE"
+      }
+    },
+    "type": "apps"
+  }]
+}

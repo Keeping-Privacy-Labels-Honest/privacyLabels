@@ -1,0 +1,231 @@
+{
+  "data": [{
+    "attributes": {
+      "privacyDetails": {
+        "managePrivacyChoicesUrl": null,
+        "privacyTypes": [{
+          "dataCategories": [{
+            "dataCategory": "Gekaufte Artikel",
+            "dataTypes": ["Einkaufsverlauf"],
+            "identifier": "PURCHASES"
+          }, {
+            "dataCategory": "Kontakt?informa?tionen",
+            "dataTypes": ["Physische Adresse", "E-Mail-Adresse", "Name", "Telefonnummer"],
+            "identifier": "CONTACT_INFO"
+          }, {
+            "dataCategory": "Suchverlauf",
+            "dataTypes": ["Suchverlauf"],
+            "identifier": "SEARCH_HISTORY"
+          }, {
+            "dataCategory": "Kennungen",
+            "dataTypes": ["Benutzer-ID", "Ger?te-ID"],
+            "identifier": "IDENTIFIERS"
+          }, {
+            "dataCategory": "Nutzungs?daten",
+            "dataTypes": ["Produkt?interaktion", "Werbedaten", "Sonstige Nutzungsdaten"],
+            "identifier": "USAGE_DATA"
+          }, {
+            "dataCategory": "Sonstige Daten",
+            "dataTypes": ["Sonstige Datentypen"],
+            "identifier": "OTHER"
+          }],
+          "description": "Die folgenden Daten werden m?glicherweise verwendet, um dich ?ber Apps und Websites anderer Unternehmen hinweg zu verfolgen:",
+          "identifier": "DATA_USED_TO_TRACK_YOU",
+          "privacyType": "Daten, die zum Tracking deiner Person verwendet werden",
+          "purposes": []
+        }, {
+          "dataCategories": [],
+          "description": "Die folgenden Daten, die m?glicherweise erfasst und mit deiner Identit?t verkn?pft werden, k?nnen f?r die folgenden Zwecke verwendet werden:",
+          "identifier": "DATA_LINKED_TO_YOU",
+          "privacyType": "Mit dir verkn?pfte Daten",
+          "purposes": [{
+            "dataCategories": [{
+              "dataCategory": "Gekaufte Artikel",
+              "dataTypes": ["Einkaufsverlauf"],
+              "identifier": "PURCHASES"
+            }, {
+              "dataCategory": "Finanz?informa?tionen",
+              "dataTypes": ["Zahlungsdaten"],
+              "identifier": "FINANCIAL_INFO"
+            }, {
+              "dataCategory": "Standort",
+              "dataTypes": ["Genauer Standort", "Ungef?hrer Standort"],
+              "identifier": "LOCATION"
+            }, {
+              "dataCategory": "Kontakt?informa?tionen",
+              "dataTypes": ["Physische Adresse", "E-Mail-Adresse", "Name", "Telefonnummer"],
+              "identifier": "CONTACT_INFO"
+            }, {
+              "dataCategory": "Suchverlauf",
+              "dataTypes": ["Suchverlauf"],
+              "identifier": "SEARCH_HISTORY"
+            }, {
+              "dataCategory": "Kennungen",
+              "dataTypes": ["Benutzer-ID", "Ger?te-ID"],
+              "identifier": "IDENTIFIERS"
+            }, {
+              "dataCategory": "Nutzungs?daten",
+              "dataTypes": ["Produkt?interaktion", "Werbedaten", "Sonstige Nutzungsdaten"],
+              "identifier": "USAGE_DATA"
+            }, {
+              "dataCategory": "Sonstige Daten",
+              "dataTypes": ["Sonstige Datentypen"],
+              "identifier": "OTHER"
+            }],
+            "identifier": "DEVELOPERS_ADVERTISING",
+            "purpose": "Werbung oder Marketing des Entwicklers"
+          }, {
+            "dataCategories": [{
+              "dataCategory": "Gekaufte Artikel",
+              "dataTypes": ["Einkaufsverlauf"],
+              "identifier": "PURCHASES"
+            }, {
+              "dataCategory": "Finanz?informa?tionen",
+              "dataTypes": ["Zahlungsdaten", "Bonit?ts?informationen"],
+              "identifier": "FINANCIAL_INFO"
+            }, {
+              "dataCategory": "Standort",
+              "dataTypes": ["Genauer Standort", "Ungef?hrer Standort"],
+              "identifier": "LOCATION"
+            }, {
+              "dataCategory": "Kontakt?informa?tionen",
+              "dataTypes": ["E-Mail-Adresse", "Name", "Telefonnummer"],
+              "identifier": "CONTACT_INFO"
+            }, {
+              "dataCategory": "Benutzer?inhalte",
+              "dataTypes": ["E-Mails oder Textnachrichten", "Fotos oder Videos", "Kundendienst"],
+              "identifier": "USER_CONTENT"
+            }, {
+              "dataCategory": "Suchverlauf",
+              "dataTypes": ["Suchverlauf"],
+              "identifier": "SEARCH_HISTORY"
+            }, {
+              "dataCategory": "Kennungen",
+              "dataTypes": ["Benutzer-ID", "Ger?te-ID"],
+              "identifier": "IDENTIFIERS"
+            }, {
+              "dataCategory": "Nutzungs?daten",
+              "dataTypes": ["Produkt?interaktion", "Werbedaten", "Sonstige Nutzungsdaten"],
+              "identifier": "USAGE_DATA"
+            }, {
+              "dataCategory": "Diagnose",
+              "dataTypes": ["Crash-Daten", "Leistungsdaten", "Sonstige Diagnosedaten"],
+              "identifier": "DIAGNOSTICS"
+            }, {
+              "dataCategory": "Sonstige Daten",
+              "dataTypes": ["Sonstige Datentypen"],
+              "identifier": "OTHER"
+            }],
+            "identifier": "ANALYTICS",
+            "purpose": "Analyse"
+          }, {
+            "dataCategories": [{
+              "dataCategory": "Gekaufte Artikel",
+              "dataTypes": ["Einkaufsverlauf"],
+              "identifier": "PURCHASES"
+            }, {
+              "dataCategory": "Finanz?informa?tionen",
+              "dataTypes": ["Zahlungsdaten"],
+              "identifier": "FINANCIAL_INFO"
+            }, {
+              "dataCategory": "Kontakt?informa?tionen",
+              "dataTypes": ["Physische Adresse", "E-Mail-Adresse", "Name", "Telefonnummer"],
+              "identifier": "CONTACT_INFO"
+            }, {
+              "dataCategory": "Benutzer?inhalte",
+              "dataTypes": ["Fotos oder Videos", "Sonstige Benutzerinhalte"],
+              "identifier": "USER_CONTENT"
+            }, {
+              "dataCategory": "Suchverlauf",
+              "dataTypes": ["Suchverlauf"],
+              "identifier": "SEARCH_HISTORY"
+            }, {
+              "dataCategory": "Kennungen",
+              "dataTypes": ["Benutzer-ID", "Ger?te-ID"],
+              "identifier": "IDENTIFIERS"
+            }, {
+              "dataCategory": "Nutzungs?daten",
+              "dataTypes": ["Produkt?interaktion", "Werbedaten", "Sonstige Nutzungsdaten"],
+              "identifier": "USAGE_DATA"
+            }],
+            "identifier": "PRODUCT_PERSONALIZATION",
+            "purpose": "Produkt?personalisierung"
+          }, {
+            "dataCategories": [{
+              "dataCategory": "Gekaufte Artikel",
+              "dataTypes": ["Einkaufsverlauf"],
+              "identifier": "PURCHASES"
+            }, {
+              "dataCategory": "Finanz?informa?tionen",
+              "dataTypes": ["Zahlungsdaten", "Bonit?ts?informationen"],
+              "identifier": "FINANCIAL_INFO"
+            }, {
+              "dataCategory": "Standort",
+              "dataTypes": ["Genauer Standort", "Ungef?hrer Standort"],
+              "identifier": "LOCATION"
+            }, {
+              "dataCategory": "Kontakt?informa?tionen",
+              "dataTypes": ["Physische Adresse", "E-Mail-Adresse", "Name", "Telefonnummer"],
+              "identifier": "CONTACT_INFO"
+            }, {
+              "dataCategory": "Benutzer?inhalte",
+              "dataTypes": ["E-Mails oder Textnachrichten", "Fotos oder Videos", "Kundendienst", "Sonstige Benutzerinhalte"],
+              "identifier": "USER_CONTENT"
+            }, {
+              "dataCategory": "Suchverlauf",
+              "dataTypes": ["Suchverlauf"],
+              "identifier": "SEARCH_HISTORY"
+            }, {
+              "dataCategory": "Kennungen",
+              "dataTypes": ["Benutzer-ID", "Ger?te-ID"],
+              "identifier": "IDENTIFIERS"
+            }, {
+              "dataCategory": "Nutzungs?daten",
+              "dataTypes": ["Produkt?interaktion", "Werbedaten", "Sonstige Nutzungsdaten"],
+              "identifier": "USAGE_DATA"
+            }, {
+              "dataCategory": "Vertrauliche Daten",
+              "dataTypes": ["Vertrauliche Daten"],
+              "identifier": "SENSITIVE_INFO"
+            }, {
+              "dataCategory": "Diagnose",
+              "dataTypes": ["Crash-Daten", "Leistungsdaten", "Sonstige Diagnosedaten"],
+              "identifier": "DIAGNOSTICS"
+            }, {
+              "dataCategory": "Sonstige Daten",
+              "dataTypes": ["Sonstige Datentypen"],
+              "identifier": "OTHER"
+            }],
+            "identifier": "APP_FUNCTIONALITY",
+            "purpose": "App-Funktionalit?t"
+          }]
+        }]
+      }
+    },
+    "href": "/v1/catalog/de/apps/1131342792?l=de-DE",
+    "id": "1131342792",
+    "relationships": {
+      "developer": {
+        "data": [{
+          "href": "/v1/catalog/de/developers/368677371?l=de-DE",
+          "id": "368677371",
+          "type": "developers"
+        }],
+        "href": "/v1/catalog/de/apps/1131342792/developer?l=de-DE"
+      },
+      "genres": {
+        "data": [{
+          "href": "/v1/catalog/de/genres/6000?l=de-DE",
+          "id": "6000",
+          "type": "genres"
+        }, {
+          "href": "/v1/catalog/de/genres/6010?l=de-DE",
+          "id": "6010",
+          "type": "genres"
+        }],
+        "href": "/v1/catalog/de/apps/1131342792/genres?l=de-DE"
+      }
+    },
+    "type": "apps"
+  }]
+}

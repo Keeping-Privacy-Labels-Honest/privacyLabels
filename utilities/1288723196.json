@@ -1,0 +1,115 @@
+{
+  "data": [{
+    "attributes": {
+      "privacyDetails": {
+        "managePrivacyChoicesUrl": null,
+        "privacyTypes": [{
+          "dataCategories": [],
+          "description": "Die folgenden Daten, die möglicherweise erfasst und mit deiner Identität verknüpft werden, können für die folgenden Zwecke verwendet werden:",
+          "identifier": "DATA_LINKED_TO_YOU",
+          "privacyType": "Mit dir verknüpfte Daten",
+          "purposes": [{
+            "dataCategories": [{
+              "dataCategory": "Browser-Verlauf",
+              "dataTypes": ["Browser-Verlauf"],
+              "identifier": "BROWSING_HISTORY"
+            }, {
+              "dataCategory": "Kennungen",
+              "dataTypes": ["Geräte-ID"],
+              "identifier": "IDENTIFIERS"
+            }, {
+              "dataCategory": "Diagnose",
+              "dataTypes": ["Crash-Daten"],
+              "identifier": "DIAGNOSTICS"
+            }],
+            "identifier": "ANALYTICS",
+            "purpose": "Analyse"
+          }, {
+            "dataCategories": [{
+              "dataCategory": "Browser-Verlauf",
+              "dataTypes": ["Browser-Verlauf"],
+              "identifier": "BROWSING_HISTORY"
+            }],
+            "identifier": "PRODUCT_PERSONALIZATION",
+            "purpose": "Produkt­personalisierung"
+          }, {
+            "dataCategories": [{
+              "dataCategory": "Browser-Verlauf",
+              "dataTypes": ["Browser-Verlauf"],
+              "identifier": "BROWSING_HISTORY"
+            }, {
+              "dataCategory": "Kennungen",
+              "dataTypes": ["Geräte-ID"],
+              "identifier": "IDENTIFIERS"
+            }, {
+              "dataCategory": "Diagnose",
+              "dataTypes": ["Crash-Daten"],
+              "identifier": "DIAGNOSTICS"
+            }],
+            "identifier": "APP_FUNCTIONALITY",
+            "purpose": "App-Funktionalität"
+          }]
+        }, {
+          "dataCategories": [],
+          "description": "Die folgenden Daten, die zwar möglicherweise erfasst, aber nicht mit deiner Identität verknüpft werden, können für die folgenden Zwecke verwendet werden:",
+          "identifier": "DATA_NOT_LINKED_TO_YOU",
+          "privacyType": "Nicht mit dir verknüpfte Daten",
+          "purposes": [{
+            "dataCategories": [{
+              "dataCategory": "Nutzungs­daten",
+              "dataTypes": ["Produkt­interaktion"],
+              "identifier": "USAGE_DATA"
+            }],
+            "identifier": "ANALYTICS",
+            "purpose": "Analyse"
+          }, {
+            "dataCategories": [{
+              "dataCategory": "Nutzungs­daten",
+              "dataTypes": ["Produkt­interaktion"],
+              "identifier": "USAGE_DATA"
+            }],
+            "identifier": "PRODUCT_PERSONALIZATION",
+            "purpose": "Produkt­personalisierung"
+          }, {
+            "dataCategories": [{
+              "dataCategory": "Nutzungs­daten",
+              "dataTypes": ["Produkt­interaktion"],
+              "identifier": "USAGE_DATA"
+            }, {
+              "dataCategory": "Diagnose",
+              "dataTypes": ["Leistungsdaten"],
+              "identifier": "DIAGNOSTICS"
+            }],
+            "identifier": "APP_FUNCTIONALITY",
+            "purpose": "App-Funktionalität"
+          }]
+        }]
+      }
+    },
+    "href": "/v1/catalog/de/apps/1288723196?l=de-DE",
+    "id": "1288723196",
+    "relationships": {
+      "developer": {
+        "data": [{
+          "href": "/v1/catalog/de/developers/298856275?l=de-DE",
+          "id": "298856275",
+          "type": "developers"
+        }],
+        "href": "/v1/catalog/de/apps/1288723196/developer?l=de-DE"
+      },
+      "genres": {
+        "data": [{
+          "href": "/v1/catalog/de/genres/6002?l=de-DE",
+          "id": "6002",
+          "type": "genres"
+        }, {
+          "href": "/v1/catalog/de/genres/6007?l=de-DE",
+          "id": "6007",
+          "type": "genres"
+        }],
+        "href": "/v1/catalog/de/apps/1288723196/genres?l=de-DE"
+      }
+    },
+    "type": "apps"
+  }]
+}

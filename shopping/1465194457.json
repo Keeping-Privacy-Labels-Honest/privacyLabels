@@ -1,0 +1,67 @@
+{
+  "data": [{
+    "attributes": {
+      "privacyDetails": {
+        "managePrivacyChoicesUrl": null,
+        "privacyTypes": [{
+          "dataCategories": [{
+            "dataCategory": "Standort",
+            "dataTypes": ["Genauer Standort", "Ungefährer Standort"],
+            "identifier": "LOCATION"
+          }, {
+            "dataCategory": "Kontakt­informa­tionen",
+            "dataTypes": ["Name", "Telefonnummer"],
+            "identifier": "CONTACT_INFO"
+          }],
+          "description": "Die folgenden Daten werden möglicherweise verwendet, um dich über Apps und Websites anderer Unternehmen hinweg zu verfolgen:",
+          "identifier": "DATA_USED_TO_TRACK_YOU",
+          "privacyType": "Daten, die zum Tracking deiner Person verwendet werden",
+          "purposes": []
+        }, {
+          "dataCategories": [],
+          "description": "Die folgenden Daten, die möglicherweise erfasst und mit deiner Identität verknüpft werden, können für die folgenden Zwecke verwendet werden:",
+          "identifier": "DATA_LINKED_TO_YOU",
+          "privacyType": "Mit dir verknüpfte Daten",
+          "purposes": [{
+            "dataCategories": [{
+              "dataCategory": "Standort",
+              "dataTypes": ["Genauer Standort", "Ungefährer Standort"],
+              "identifier": "LOCATION"
+            }, {
+              "dataCategory": "Kontakt­informa­tionen",
+              "dataTypes": ["Name", "Telefonnummer"],
+              "identifier": "CONTACT_INFO"
+            }],
+            "identifier": "APP_FUNCTIONALITY",
+            "purpose": "App-Funktionalität"
+          }]
+        }]
+      }
+    },
+    "href": "/v1/catalog/de/apps/1465194457?l=de-DE",
+    "id": "1465194457",
+    "relationships": {
+      "developer": {
+        "data": [{
+          "href": "/v1/catalog/de/developers/1465194456?l=de-DE",
+          "id": "1465194456",
+          "type": "developers"
+        }],
+        "href": "/v1/catalog/de/apps/1465194457/developer?l=de-DE"
+      },
+      "genres": {
+        "data": [{
+          "href": "/v1/catalog/de/genres/6024?l=de-DE",
+          "id": "6024",
+          "type": "genres"
+        }, {
+          "href": "/v1/catalog/de/genres/6012?l=de-DE",
+          "id": "6012",
+          "type": "genres"
+        }],
+        "href": "/v1/catalog/de/apps/1465194457/genres?l=de-DE"
+      }
+    },
+    "type": "apps"
+  }]
+}

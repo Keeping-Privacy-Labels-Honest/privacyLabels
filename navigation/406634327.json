@@ -1,0 +1,87 @@
+{
+  "data": [{
+    "attributes": {
+      "privacyDetails": {
+        "managePrivacyChoicesUrl": null,
+        "privacyTypes": [{
+          "dataCategories": [],
+          "description": "Die folgenden Daten, die m?glicherweise erfasst und mit deiner Identit?t verkn?pft werden, k?nnen f?r die folgenden Zwecke verwendet werden:",
+          "identifier": "DATA_LINKED_TO_YOU",
+          "privacyType": "Mit dir verkn?pfte Daten",
+          "purposes": [{
+            "dataCategories": [{
+              "dataCategory": "Nutzungs?daten",
+              "dataTypes": ["Produkt?interaktion"],
+              "identifier": "USAGE_DATA"
+            }, {
+              "dataCategory": "Diagnose",
+              "dataTypes": ["Crash-Daten", "Leistungsdaten", "Sonstige Diagnosedaten"],
+              "identifier": "DIAGNOSTICS"
+            }],
+            "identifier": "ANALYTICS",
+            "purpose": "Analyse"
+          }, {
+            "dataCategories": [{
+              "dataCategory": "Kontakt?informa?tionen",
+              "dataTypes": ["Name"],
+              "identifier": "CONTACT_INFO"
+            }],
+            "identifier": "PRODUCT_PERSONALIZATION",
+            "purpose": "Produkt?personalisierung"
+          }, {
+            "dataCategories": [{
+              "dataCategory": "Kontakt?informa?tionen",
+              "dataTypes": ["Physische Adresse", "E-Mail-Adresse", "Telefonnummer", "Sonstige Benutzer-Kontaktinforma?tionen"],
+              "identifier": "CONTACT_INFO"
+            }, {
+              "dataCategory": "Benutzer?inhalte",
+              "dataTypes": ["Kundendienst", "Sonstige Benutzerinhalte"],
+              "identifier": "USER_CONTENT"
+            }, {
+              "dataCategory": "Kennungen",
+              "dataTypes": ["Benutzer-ID"],
+              "identifier": "IDENTIFIERS"
+            }],
+            "identifier": "APP_FUNCTIONALITY",
+            "purpose": "App-Funktionalit?t"
+          }]
+        }, {
+          "dataCategories": [],
+          "description": "Die folgenden Daten, die zwar m?glicherweise erfasst, aber nicht mit deiner Identit?t verkn?pft werden, k?nnen f?r die folgenden Zwecke verwendet werden:",
+          "identifier": "DATA_NOT_LINKED_TO_YOU",
+          "privacyType": "Nicht mit dir verkn?pfte Daten",
+          "purposes": [{
+            "dataCategories": [{
+              "dataCategory": "Kennungen",
+              "dataTypes": ["Ger?te-ID"],
+              "identifier": "IDENTIFIERS"
+            }],
+            "identifier": "APP_FUNCTIONALITY",
+            "purpose": "App-Funktionalit?t"
+          }]
+        }]
+      }
+    },
+    "href": "/v1/catalog/de/apps/406634327?l=de-DE",
+    "id": "406634327",
+    "relationships": {
+      "developer": {
+        "data": [{
+          "href": "/v1/catalog/de/developers/1002317627?l=de-DE",
+          "id": "1002317627",
+          "type": "developers"
+        }],
+        "href": "/v1/catalog/de/apps/406634327/developer?l=de-DE"
+      },
+      "genres": {
+        "data": [{
+          "href": "/v1/catalog/de/genres/6010?l=de-DE",
+          "id": "6010",
+          "type": "genres"
+        }],
+        "href": "/v1/catalog/de/apps/406634327/genres?l=de-DE"
+      }
+    },
+    "type": "apps"
+  }]
+}

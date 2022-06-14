@@ -1,0 +1,45 @@
+{
+  "data": [{
+    "attributes": {
+      "privacyDetails": {
+        "managePrivacyChoicesUrl": null,
+        "privacyTypes": [{
+          "dataCategories": [],
+          "description": "Die folgenden Daten, die zwar m?glicherweise erfasst, aber nicht mit deiner Identit?t verkn?pft werden, k?nnen f?r die folgenden Zwecke verwendet werden:",
+          "identifier": "DATA_NOT_LINKED_TO_YOU",
+          "privacyType": "Nicht mit dir verkn?pfte Daten",
+          "purposes": [{
+            "dataCategories": [{
+              "dataCategory": "Diagnose",
+              "dataTypes": ["Crash-Daten"],
+              "identifier": "DIAGNOSTICS"
+            }],
+            "identifier": "APP_FUNCTIONALITY",
+            "purpose": "App-Funktionalit?t"
+          }]
+        }]
+      }
+    },
+    "href": "/v1/catalog/de/apps/314881531?l=de-DE",
+    "id": "314881531",
+    "relationships": {
+      "developer": {
+        "data": [{
+          "href": "/v1/catalog/de/developers/1151052132?l=de-DE",
+          "id": "1151052132",
+          "type": "developers"
+        }],
+        "href": "/v1/catalog/de/apps/314881531/developer?l=de-DE"
+      },
+      "genres": {
+        "data": [{
+          "href": "/v1/catalog/de/genres/6018?l=de-DE",
+          "id": "6018",
+          "type": "genres"
+        }],
+        "href": "/v1/catalog/de/apps/314881531/genres?l=de-DE"
+      }
+    },
+    "type": "apps"
+  }]
+}

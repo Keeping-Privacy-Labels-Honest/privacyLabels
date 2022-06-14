@@ -1,0 +1,41 @@
+{
+  "data": [{
+    "attributes": {
+      "privacyDetails": {
+        "managePrivacyChoicesUrl": "https://app.havuta.com/terms",
+        "privacyTypes": [{
+          "dataCategories": [],
+          "description": "Der Entwickler erfasst keine Daten von dieser App.",
+          "identifier": "DATA_NOT_COLLECTED",
+          "privacyType": "Keine Daten erfasst",
+          "purposes": []
+        }]
+      }
+    },
+    "href": "/v1/catalog/de/apps/1467863954?l=de-DE",
+    "id": "1467863954",
+    "relationships": {
+      "developer": {
+        "data": [{
+          "href": "/v1/catalog/de/developers/1467863953?l=de-DE",
+          "id": "1467863953",
+          "type": "developers"
+        }],
+        "href": "/v1/catalog/de/apps/1467863954/developer?l=de-DE"
+      },
+      "genres": {
+        "data": [{
+          "href": "/v1/catalog/de/genres/6007?l=de-DE",
+          "id": "6007",
+          "type": "genres"
+        }, {
+          "href": "/v1/catalog/de/genres/6002?l=de-DE",
+          "id": "6002",
+          "type": "genres"
+        }],
+        "href": "/v1/catalog/de/apps/1467863954/genres?l=de-DE"
+      }
+    },
+    "type": "apps"
+  }]
+}

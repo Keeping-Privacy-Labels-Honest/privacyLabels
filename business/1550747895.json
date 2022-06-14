@@ -1,0 +1,99 @@
+{
+  "data": [{
+    "attributes": {
+      "privacyDetails": {
+        "managePrivacyChoicesUrl": null,
+        "privacyTypes": [{
+          "dataCategories": [],
+          "description": "Die folgenden Daten, die möglicherweise erfasst und mit deiner Identität verknüpft werden, können für die folgenden Zwecke verwendet werden:",
+          "identifier": "DATA_LINKED_TO_YOU",
+          "privacyType": "Mit dir verknüpfte Daten",
+          "purposes": [{
+            "dataCategories": [{
+              "dataCategory": "Finanz­informa­tionen",
+              "dataTypes": ["Zahlungsdaten"],
+              "identifier": "FINANCIAL_INFO"
+            }, {
+              "dataCategory": "Kontakt­informa­tionen",
+              "dataTypes": ["Physische Adresse", "E-Mail-Adresse", "Name", "Telefonnummer", "Sonstige Benutzer-Kontaktinforma­tionen"],
+              "identifier": "CONTACT_INFO"
+            }, {
+              "dataCategory": "Kennungen",
+              "dataTypes": ["Benutzer-ID"],
+              "identifier": "IDENTIFIERS"
+            }],
+            "identifier": "APP_FUNCTIONALITY",
+            "purpose": "App-Funktionalität"
+          }, {
+            "dataCategories": [{
+              "dataCategory": "Kennungen",
+              "dataTypes": ["Benutzer-ID"],
+              "identifier": "IDENTIFIERS"
+            }],
+            "identifier": "OTHER_PURPOSES",
+            "purpose": "Sonstige Zwecke"
+          }]
+        }, {
+          "dataCategories": [],
+          "description": "Die folgenden Daten, die zwar möglicherweise erfasst, aber nicht mit deiner Identität verknüpft werden, können für die folgenden Zwecke verwendet werden:",
+          "identifier": "DATA_NOT_LINKED_TO_YOU",
+          "privacyType": "Nicht mit dir verknüpfte Daten",
+          "purposes": [{
+            "dataCategories": [{
+              "dataCategory": "Nutzungs­daten",
+              "dataTypes": ["Produkt­interaktion"],
+              "identifier": "USAGE_DATA"
+            }, {
+              "dataCategory": "Diagnose",
+              "dataTypes": ["Leistungsdaten", "Sonstige Diagnosedaten"],
+              "identifier": "DIAGNOSTICS"
+            }],
+            "identifier": "ANALYTICS",
+            "purpose": "Analyse"
+          }, {
+            "dataCategories": [{
+              "dataCategory": "Benutzer­inhalte",
+              "dataTypes": ["Kundendienst"],
+              "identifier": "USER_CONTENT"
+            }, {
+              "dataCategory": "Nutzungs­daten",
+              "dataTypes": ["Produkt­interaktion"],
+              "identifier": "USAGE_DATA"
+            }, {
+              "dataCategory": "Diagnose",
+              "dataTypes": ["Crash-Daten", "Leistungsdaten", "Sonstige Diagnosedaten"],
+              "identifier": "DIAGNOSTICS"
+            }],
+            "identifier": "APP_FUNCTIONALITY",
+            "purpose": "App-Funktionalität"
+          }]
+        }]
+      }
+    },
+    "href": "/v1/catalog/de/apps/1550747895?l=de-DE",
+    "id": "1550747895",
+    "relationships": {
+      "developer": {
+        "data": [{
+          "href": "/v1/catalog/de/developers/573486057?l=de-DE",
+          "id": "573486057",
+          "type": "developers"
+        }],
+        "href": "/v1/catalog/de/apps/1550747895/developer?l=de-DE"
+      },
+      "genres": {
+        "data": [{
+          "href": "/v1/catalog/de/genres/6000?l=de-DE",
+          "id": "6000",
+          "type": "genres"
+        }, {
+          "href": "/v1/catalog/de/genres/6007?l=de-DE",
+          "id": "6007",
+          "type": "genres"
+        }],
+        "href": "/v1/catalog/de/apps/1550747895/genres?l=de-DE"
+      }
+    },
+    "type": "apps"
+  }]
+}

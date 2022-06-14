@@ -1,0 +1,81 @@
+{
+  "data": [{
+    "attributes": {
+      "privacyDetails": {
+        "managePrivacyChoicesUrl": null,
+        "privacyTypes": [{
+          "dataCategories": [],
+          "description": "Die folgenden Daten, die zwar m?glicherweise erfasst, aber nicht mit deiner Identit?t verkn?pft werden, k?nnen f?r die folgenden Zwecke verwendet werden:",
+          "identifier": "DATA_NOT_LINKED_TO_YOU",
+          "privacyType": "Nicht mit dir verkn?pfte Daten",
+          "purposes": [{
+            "dataCategories": [{
+              "dataCategory": "Kennungen",
+              "dataTypes": ["Benutzer-ID"],
+              "identifier": "IDENTIFIERS"
+            }, {
+              "dataCategory": "Nutzungs?daten",
+              "dataTypes": ["Produkt?interaktion"],
+              "identifier": "USAGE_DATA"
+            }],
+            "identifier": "DEVELOPERS_ADVERTISING",
+            "purpose": "Werbung oder Marketing des Entwicklers"
+          }, {
+            "dataCategories": [{
+              "dataCategory": "Kennungen",
+              "dataTypes": ["Benutzer-ID", "Ger?te-ID"],
+              "identifier": "IDENTIFIERS"
+            }, {
+              "dataCategory": "Nutzungs?daten",
+              "dataTypes": ["Produkt?interaktion"],
+              "identifier": "USAGE_DATA"
+            }, {
+              "dataCategory": "Diagnose",
+              "dataTypes": ["Crash-Daten"],
+              "identifier": "DIAGNOSTICS"
+            }],
+            "identifier": "ANALYTICS",
+            "purpose": "Analyse"
+          }, {
+            "dataCategories": [{
+              "dataCategory": "Kennungen",
+              "dataTypes": ["Benutzer-ID", "Ger?te-ID"],
+              "identifier": "IDENTIFIERS"
+            }, {
+              "dataCategory": "Nutzungs?daten",
+              "dataTypes": ["Produkt?interaktion"],
+              "identifier": "USAGE_DATA"
+            }, {
+              "dataCategory": "Diagnose",
+              "dataTypes": ["Crash-Daten"],
+              "identifier": "DIAGNOSTICS"
+            }],
+            "identifier": "APP_FUNCTIONALITY",
+            "purpose": "App-Funktionalit?t"
+          }]
+        }]
+      }
+    },
+    "href": "/v1/catalog/de/apps/1376601700?l=de-DE",
+    "id": "1376601700",
+    "relationships": {
+      "developer": {
+        "data": [{
+          "href": "/v1/catalog/de/developers/1367444096?l=de-DE",
+          "id": "1367444096",
+          "type": "developers"
+        }],
+        "href": "/v1/catalog/de/apps/1376601700/developer?l=de-DE"
+      },
+      "genres": {
+        "data": [{
+          "href": "/v1/catalog/de/genres/6009?l=de-DE",
+          "id": "6009",
+          "type": "genres"
+        }],
+        "href": "/v1/catalog/de/apps/1376601700/genres?l=de-DE"
+      }
+    },
+    "type": "apps"
+  }]
+}

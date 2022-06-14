@@ -1,0 +1,107 @@
+{
+  "data": [{
+    "attributes": {
+      "privacyDetails": {
+        "managePrivacyChoicesUrl": null,
+        "privacyTypes": [{
+          "dataCategories": [],
+          "description": "Die folgenden Daten, die m?glicherweise erfasst und mit deiner Identit?t verkn?pft werden, k?nnen f?r die folgenden Zwecke verwendet werden:",
+          "identifier": "DATA_LINKED_TO_YOU",
+          "privacyType": "Mit dir verkn?pfte Daten",
+          "purposes": [{
+            "dataCategories": [{
+              "dataCategory": "Gesundheit und Fitness",
+              "dataTypes": ["Gesundheit"],
+              "identifier": "HEALTH_AND_FITNESS"
+            }, {
+              "dataCategory": "Benutzer?inhalte",
+              "dataTypes": ["Audio-Daten"],
+              "identifier": "USER_CONTENT"
+            }, {
+              "dataCategory": "Nutzungs?daten",
+              "dataTypes": ["Produkt?interaktion"],
+              "identifier": "USAGE_DATA"
+            }, {
+              "dataCategory": "Vertrauliche Daten",
+              "dataTypes": ["Vertrauliche Daten"],
+              "identifier": "SENSITIVE_INFO"
+            }, {
+              "dataCategory": "Diagnose",
+              "dataTypes": ["Leistungsdaten"],
+              "identifier": "DIAGNOSTICS"
+            }],
+            "identifier": "ANALYTICS",
+            "purpose": "Analyse"
+          }, {
+            "dataCategories": [{
+              "dataCategory": "Gesundheit und Fitness",
+              "dataTypes": ["Gesundheit"],
+              "identifier": "HEALTH_AND_FITNESS"
+            }, {
+              "dataCategory": "Kontakt?informa?tionen",
+              "dataTypes": ["E-Mail-Adresse", "Name", "Telefonnummer"],
+              "identifier": "CONTACT_INFO"
+            }, {
+              "dataCategory": "Benutzer?inhalte",
+              "dataTypes": ["Audio-Daten", "Sonstige Benutzerinhalte"],
+              "identifier": "USER_CONTENT"
+            }, {
+              "dataCategory": "Kennungen",
+              "dataTypes": ["Benutzer-ID", "Ger?te-ID"],
+              "identifier": "IDENTIFIERS"
+            }, {
+              "dataCategory": "Nutzungs?daten",
+              "dataTypes": ["Produkt?interaktion"],
+              "identifier": "USAGE_DATA"
+            }, {
+              "dataCategory": "Vertrauliche Daten",
+              "dataTypes": ["Vertrauliche Daten"],
+              "identifier": "SENSITIVE_INFO"
+            }],
+            "identifier": "APP_FUNCTIONALITY",
+            "purpose": "App-Funktionalit?t"
+          }]
+        }, {
+          "dataCategories": [],
+          "description": "Die folgenden Daten, die zwar m?glicherweise erfasst, aber nicht mit deiner Identit?t verkn?pft werden, k?nnen f?r die folgenden Zwecke verwendet werden:",
+          "identifier": "DATA_NOT_LINKED_TO_YOU",
+          "privacyType": "Nicht mit dir verkn?pfte Daten",
+          "purposes": [{
+            "dataCategories": [{
+              "dataCategory": "Diagnose",
+              "dataTypes": ["Crash-Daten"],
+              "identifier": "DIAGNOSTICS"
+            }],
+            "identifier": "ANALYTICS",
+            "purpose": "Analyse"
+          }]
+        }]
+      }
+    },
+    "href": "/v1/catalog/de/apps/871632284?l=de-DE",
+    "id": "871632284",
+    "relationships": {
+      "developer": {
+        "data": [{
+          "href": "/v1/catalog/de/developers/871632287?l=de-DE",
+          "id": "871632287",
+          "type": "developers"
+        }],
+        "href": "/v1/catalog/de/apps/871632284/developer?l=de-DE"
+      },
+      "genres": {
+        "data": [{
+          "href": "/v1/catalog/de/genres/6020?l=de-DE",
+          "id": "6020",
+          "type": "genres"
+        }, {
+          "href": "/v1/catalog/de/genres/6013?l=de-DE",
+          "id": "6013",
+          "type": "genres"
+        }],
+        "href": "/v1/catalog/de/apps/871632284/genres?l=de-DE"
+      }
+    },
+    "type": "apps"
+  }]
+}

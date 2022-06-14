@@ -1,0 +1,123 @@
+{
+  "data": [{
+    "attributes": {
+      "privacyDetails": {
+        "managePrivacyChoicesUrl": null,
+        "privacyTypes": [{
+          "dataCategories": [],
+          "description": "Die folgenden Daten, die m?glicherweise erfasst und mit deiner Identit?t verkn?pft werden, k?nnen f?r die folgenden Zwecke verwendet werden:",
+          "identifier": "DATA_LINKED_TO_YOU",
+          "privacyType": "Mit dir verkn?pfte Daten",
+          "purposes": [{
+            "dataCategories": [{
+              "dataCategory": "Kontakt?informa?tionen",
+              "dataTypes": ["Physische Adresse", "Telefonnummer"],
+              "identifier": "CONTACT_INFO"
+            }, {
+              "dataCategory": "Kennungen",
+              "dataTypes": ["Benutzer-ID"],
+              "identifier": "IDENTIFIERS"
+            }, {
+              "dataCategory": "Nutzungs?daten",
+              "dataTypes": ["Produkt?interaktion"],
+              "identifier": "USAGE_DATA"
+            }],
+            "identifier": "DEVELOPERS_ADVERTISING",
+            "purpose": "Werbung oder Marketing des Entwicklers"
+          }, {
+            "dataCategories": [{
+              "dataCategory": "Benutzer?inhalte",
+              "dataTypes": ["Kundendienst"],
+              "identifier": "USER_CONTENT"
+            }, {
+              "dataCategory": "Kennungen",
+              "dataTypes": ["Benutzer-ID"],
+              "identifier": "IDENTIFIERS"
+            }, {
+              "dataCategory": "Nutzungs?daten",
+              "dataTypes": ["Produkt?interaktion"],
+              "identifier": "USAGE_DATA"
+            }, {
+              "dataCategory": "Diagnose",
+              "dataTypes": ["Crash-Daten", "Leistungsdaten"],
+              "identifier": "DIAGNOSTICS"
+            }, {
+              "dataCategory": "Sonstige Daten",
+              "dataTypes": ["Sonstige Datentypen"],
+              "identifier": "OTHER"
+            }],
+            "identifier": "ANALYTICS",
+            "purpose": "Analyse"
+          }, {
+            "dataCategories": [{
+              "dataCategory": "Gesundheit und Fitness",
+              "dataTypes": ["Gesundheit"],
+              "identifier": "HEALTH_AND_FITNESS"
+            }, {
+              "dataCategory": "Kontakt?informa?tionen",
+              "dataTypes": ["Physische Adresse", "E-Mail-Adresse", "Name", "Telefonnummer", "Sonstige Benutzer-Kontaktinforma?tionen"],
+              "identifier": "CONTACT_INFO"
+            }, {
+              "dataCategory": "Benutzer?inhalte",
+              "dataTypes": ["Fotos oder Videos", "Kundendienst"],
+              "identifier": "USER_CONTENT"
+            }, {
+              "dataCategory": "Kennungen",
+              "dataTypes": ["Benutzer-ID"],
+              "identifier": "IDENTIFIERS"
+            }, {
+              "dataCategory": "Sonstige Daten",
+              "dataTypes": ["Sonstige Datentypen"],
+              "identifier": "OTHER"
+            }],
+            "identifier": "APP_FUNCTIONALITY",
+            "purpose": "App-Funktionalit?t"
+          }]
+        }, {
+          "dataCategories": [],
+          "description": "Die folgenden Daten, die zwar m?glicherweise erfasst, aber nicht mit deiner Identit?t verkn?pft werden, k?nnen f?r die folgenden Zwecke verwendet werden:",
+          "identifier": "DATA_NOT_LINKED_TO_YOU",
+          "privacyType": "Nicht mit dir verkn?pfte Daten",
+          "purposes": [{
+            "dataCategories": [{
+              "dataCategory": "Kennungen",
+              "dataTypes": ["Ger?te-ID"],
+              "identifier": "IDENTIFIERS"
+            }],
+            "identifier": "ANALYTICS",
+            "purpose": "Analyse"
+          }, {
+            "dataCategories": [{
+              "dataCategory": "Vertrauliche Daten",
+              "dataTypes": ["Vertrauliche Daten"],
+              "identifier": "SENSITIVE_INFO"
+            }],
+            "identifier": "APP_FUNCTIONALITY",
+            "purpose": "App-Funktionalit?t"
+          }]
+        }]
+      }
+    },
+    "href": "/v1/catalog/de/apps/1436187039?l=de-DE",
+    "id": "1436187039",
+    "relationships": {
+      "developer": {
+        "data": [{
+          "href": "/v1/catalog/de/developers/625342429?l=de-DE",
+          "id": "625342429",
+          "type": "developers"
+        }],
+        "href": "/v1/catalog/de/apps/1436187039/developer?l=de-DE"
+      },
+      "genres": {
+        "data": [{
+          "href": "/v1/catalog/de/genres/6020?l=de-DE",
+          "id": "6020",
+          "type": "genres"
+        }],
+        "href": "/v1/catalog/de/apps/1436187039/genres?l=de-DE"
+      }
+    },
+    "type": "apps"
+  }]
+}

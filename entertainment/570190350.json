@@ -1,0 +1,73 @@
+{
+  "data": [{
+    "attributes": {
+      "privacyDetails": {
+        "managePrivacyChoicesUrl": null,
+        "privacyTypes": [{
+          "dataCategories": [],
+          "description": "Die folgenden Daten, die zwar m?glicherweise erfasst, aber nicht mit deiner Identit?t verkn?pft werden, k?nnen f?r die folgenden Zwecke verwendet werden:",
+          "identifier": "DATA_NOT_LINKED_TO_YOU",
+          "privacyType": "Nicht mit dir verkn?pfte Daten",
+          "purposes": [{
+            "dataCategories": [{
+              "dataCategory": "Kennungen",
+              "dataTypes": ["Ger?te-ID"],
+              "identifier": "IDENTIFIERS"
+            }, {
+              "dataCategory": "Nutzungs?daten",
+              "dataTypes": ["Produkt?interaktion"],
+              "identifier": "USAGE_DATA"
+            }],
+            "identifier": "ANALYTICS",
+            "purpose": "Analyse"
+          }, {
+            "dataCategories": [{
+              "dataCategory": "Kontakt?informa?tionen",
+              "dataTypes": ["E-Mail-Adresse"],
+              "identifier": "CONTACT_INFO"
+            }, {
+              "dataCategory": "Kennungen",
+              "dataTypes": ["Ger?te-ID"],
+              "identifier": "IDENTIFIERS"
+            }, {
+              "dataCategory": "Nutzungs?daten",
+              "dataTypes": ["Produkt?interaktion"],
+              "identifier": "USAGE_DATA"
+            }, {
+              "dataCategory": "Diagnose",
+              "dataTypes": ["Crash-Daten"],
+              "identifier": "DIAGNOSTICS"
+            }],
+            "identifier": "APP_FUNCTIONALITY",
+            "purpose": "App-Funktionalit?t"
+          }]
+        }]
+      }
+    },
+    "href": "/v1/catalog/de/apps/570190350?l=de-DE",
+    "id": "570190350",
+    "relationships": {
+      "developer": {
+        "data": [{
+          "href": "/v1/catalog/de/developers/570190353?l=de-DE",
+          "id": "570190353",
+          "type": "developers"
+        }],
+        "href": "/v1/catalog/de/apps/570190350/developer?l=de-DE"
+      },
+      "genres": {
+        "data": [{
+          "href": "/v1/catalog/de/genres/6000?l=de-DE",
+          "id": "6000",
+          "type": "genres"
+        }, {
+          "href": "/v1/catalog/de/genres/6016?l=de-DE",
+          "id": "6016",
+          "type": "genres"
+        }],
+        "href": "/v1/catalog/de/apps/570190350/genres?l=de-DE"
+      }
+    },
+    "type": "apps"
+  }]
+}

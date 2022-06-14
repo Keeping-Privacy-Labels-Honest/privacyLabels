@@ -1,0 +1,85 @@
+{
+  "data": [{
+    "attributes": {
+      "privacyDetails": {
+        "managePrivacyChoicesUrl": null,
+        "privacyTypes": [{
+          "dataCategories": [],
+          "description": "Die folgenden Daten, die zwar möglicherweise erfasst, aber nicht mit deiner Identität verknüpft werden, können für die folgenden Zwecke verwendet werden:",
+          "identifier": "DATA_NOT_LINKED_TO_YOU",
+          "privacyType": "Nicht mit dir verknüpfte Daten",
+          "purposes": [{
+            "dataCategories": [{
+              "dataCategory": "Nutzungs­daten",
+              "dataTypes": ["Werbedaten"],
+              "identifier": "USAGE_DATA"
+            }],
+            "identifier": "THIRD_PARTY_ADVERTISING",
+            "purpose": "Drittanbieter-Werbung"
+          }, {
+            "dataCategories": [{
+              "dataCategory": "Benutzer­inhalte",
+              "dataTypes": ["Sonstige Benutzerinhalte"],
+              "identifier": "USER_CONTENT"
+            }, {
+              "dataCategory": "Kennungen",
+              "dataTypes": ["Benutzer-ID", "Geräte-ID"],
+              "identifier": "IDENTIFIERS"
+            }],
+            "identifier": "ANALYTICS",
+            "purpose": "Analyse"
+          }, {
+            "dataCategories": [{
+              "dataCategory": "Benutzer­inhalte",
+              "dataTypes": ["Sonstige Benutzerinhalte"],
+              "identifier": "USER_CONTENT"
+            }, {
+              "dataCategory": "Kennungen",
+              "dataTypes": ["Benutzer-ID", "Geräte-ID"],
+              "identifier": "IDENTIFIERS"
+            }],
+            "identifier": "PRODUCT_PERSONALIZATION",
+            "purpose": "Produkt­personalisierung"
+          }, {
+            "dataCategories": [{
+              "dataCategory": "Benutzer­inhalte",
+              "dataTypes": ["Sonstige Benutzerinhalte"],
+              "identifier": "USER_CONTENT"
+            }, {
+              "dataCategory": "Kennungen",
+              "dataTypes": ["Benutzer-ID", "Geräte-ID"],
+              "identifier": "IDENTIFIERS"
+            }, {
+              "dataCategory": "Diagnose",
+              "dataTypes": ["Crash-Daten", "Leistungsdaten", "Sonstige Diagnosedaten"],
+              "identifier": "DIAGNOSTICS"
+            }],
+            "identifier": "APP_FUNCTIONALITY",
+            "purpose": "App-Funktionalität"
+          }]
+        }]
+      }
+    },
+    "href": "/v1/catalog/de/apps/1290823404?l=de-DE",
+    "id": "1290823404",
+    "relationships": {
+      "developer": {
+        "data": [{
+          "href": "/v1/catalog/de/developers/544723539?l=de-DE",
+          "id": "544723539",
+          "type": "developers"
+        }],
+        "href": "/v1/catalog/de/apps/1290823404/developer?l=de-DE"
+      },
+      "genres": {
+        "data": [{
+          "href": "/v1/catalog/de/genres/6004?l=de-DE",
+          "id": "6004",
+          "type": "genres"
+        }],
+        "href": "/v1/catalog/de/apps/1290823404/genres?l=de-DE"
+      }
+    },
+    "type": "apps"
+  }]
+}

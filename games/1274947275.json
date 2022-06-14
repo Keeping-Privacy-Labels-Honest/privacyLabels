@@ -1,0 +1,241 @@
+{
+  "data": [{
+    "attributes": {
+      "privacyDetails": {
+        "managePrivacyChoicesUrl": "https://legal.ubi.com/termsofuse",
+        "privacyTypes": [{
+          "dataCategories": [{
+            "dataCategory": "Gekaufte Artikel",
+            "dataTypes": ["Einkaufsverlauf"],
+            "identifier": "PURCHASES"
+          }, {
+            "dataCategory": "Standort",
+            "dataTypes": ["Ungefährer Standort"],
+            "identifier": "LOCATION"
+          }, {
+            "dataCategory": "Benutzer­inhalte",
+            "dataTypes": ["Kundendienst"],
+            "identifier": "USER_CONTENT"
+          }, {
+            "dataCategory": "Kennungen",
+            "dataTypes": ["Benutzer-ID", "Geräte-ID"],
+            "identifier": "IDENTIFIERS"
+          }, {
+            "dataCategory": "Nutzungs­daten",
+            "dataTypes": ["Produkt­interaktion", "Werbedaten"],
+            "identifier": "USAGE_DATA"
+          }, {
+            "dataCategory": "Diagnose",
+            "dataTypes": ["Crash-Daten", "Leistungsdaten"],
+            "identifier": "DIAGNOSTICS"
+          }],
+          "description": "Die folgenden Daten werden möglicherweise verwendet, um dich über Apps und Websites anderer Unternehmen hinweg zu verfolgen:",
+          "identifier": "DATA_USED_TO_TRACK_YOU",
+          "privacyType": "Daten, die zum Tracking deiner Person verwendet werden",
+          "purposes": []
+        }, {
+          "dataCategories": [],
+          "description": "Die folgenden Daten, die möglicherweise erfasst und mit deiner Identität verknüpft werden, können für die folgenden Zwecke verwendet werden:",
+          "identifier": "DATA_LINKED_TO_YOU",
+          "privacyType": "Mit dir verknüpfte Daten",
+          "purposes": [{
+            "dataCategories": [{
+              "dataCategory": "Gekaufte Artikel",
+              "dataTypes": ["Einkaufsverlauf"],
+              "identifier": "PURCHASES"
+            }, {
+              "dataCategory": "Standort",
+              "dataTypes": ["Ungefährer Standort"],
+              "identifier": "LOCATION"
+            }, {
+              "dataCategory": "Kennungen",
+              "dataTypes": ["Benutzer-ID", "Geräte-ID"],
+              "identifier": "IDENTIFIERS"
+            }, {
+              "dataCategory": "Nutzungs­daten",
+              "dataTypes": ["Produkt­interaktion", "Werbedaten"],
+              "identifier": "USAGE_DATA"
+            }, {
+              "dataCategory": "Diagnose",
+              "dataTypes": ["Leistungsdaten"],
+              "identifier": "DIAGNOSTICS"
+            }, {
+              "dataCategory": "Sonstige Daten",
+              "dataTypes": ["Sonstige Datentypen"],
+              "identifier": "OTHER"
+            }],
+            "identifier": "THIRD_PARTY_ADVERTISING",
+            "purpose": "Drittanbieter-Werbung"
+          }, {
+            "dataCategories": [{
+              "dataCategory": "Gekaufte Artikel",
+              "dataTypes": ["Einkaufsverlauf"],
+              "identifier": "PURCHASES"
+            }, {
+              "dataCategory": "Standort",
+              "dataTypes": ["Ungefährer Standort"],
+              "identifier": "LOCATION"
+            }, {
+              "dataCategory": "Kennungen",
+              "dataTypes": ["Benutzer-ID", "Geräte-ID"],
+              "identifier": "IDENTIFIERS"
+            }, {
+              "dataCategory": "Nutzungs­daten",
+              "dataTypes": ["Produkt­interaktion", "Werbedaten"],
+              "identifier": "USAGE_DATA"
+            }],
+            "identifier": "DEVELOPERS_ADVERTISING",
+            "purpose": "Werbung oder Marketing des Entwicklers"
+          }, {
+            "dataCategories": [{
+              "dataCategory": "Gekaufte Artikel",
+              "dataTypes": ["Einkaufsverlauf"],
+              "identifier": "PURCHASES"
+            }, {
+              "dataCategory": "Standort",
+              "dataTypes": ["Ungefährer Standort"],
+              "identifier": "LOCATION"
+            }, {
+              "dataCategory": "Benutzer­inhalte",
+              "dataTypes": ["Kundendienst"],
+              "identifier": "USER_CONTENT"
+            }, {
+              "dataCategory": "Kennungen",
+              "dataTypes": ["Benutzer-ID", "Geräte-ID"],
+              "identifier": "IDENTIFIERS"
+            }, {
+              "dataCategory": "Nutzungs­daten",
+              "dataTypes": ["Produkt­interaktion", "Werbedaten", "Sonstige Nutzungsdaten"],
+              "identifier": "USAGE_DATA"
+            }, {
+              "dataCategory": "Diagnose",
+              "dataTypes": ["Leistungsdaten"],
+              "identifier": "DIAGNOSTICS"
+            }, {
+              "dataCategory": "Sonstige Daten",
+              "dataTypes": ["Sonstige Datentypen"],
+              "identifier": "OTHER"
+            }],
+            "identifier": "ANALYTICS",
+            "purpose": "Analyse"
+          }, {
+            "dataCategories": [{
+              "dataCategory": "Gekaufte Artikel",
+              "dataTypes": ["Einkaufsverlauf"],
+              "identifier": "PURCHASES"
+            }, {
+              "dataCategory": "Standort",
+              "dataTypes": ["Ungefährer Standort"],
+              "identifier": "LOCATION"
+            }, {
+              "dataCategory": "Kennungen",
+              "dataTypes": ["Benutzer-ID", "Geräte-ID"],
+              "identifier": "IDENTIFIERS"
+            }, {
+              "dataCategory": "Nutzungs­daten",
+              "dataTypes": ["Produkt­interaktion", "Werbedaten"],
+              "identifier": "USAGE_DATA"
+            }],
+            "identifier": "PRODUCT_PERSONALIZATION",
+            "purpose": "Produkt­personalisierung"
+          }, {
+            "dataCategories": [{
+              "dataCategory": "Gekaufte Artikel",
+              "dataTypes": ["Einkaufsverlauf"],
+              "identifier": "PURCHASES"
+            }, {
+              "dataCategory": "Standort",
+              "dataTypes": ["Ungefährer Standort"],
+              "identifier": "LOCATION"
+            }, {
+              "dataCategory": "Benutzer­inhalte",
+              "dataTypes": ["Kundendienst"],
+              "identifier": "USER_CONTENT"
+            }, {
+              "dataCategory": "Kennungen",
+              "dataTypes": ["Benutzer-ID", "Geräte-ID"],
+              "identifier": "IDENTIFIERS"
+            }, {
+              "dataCategory": "Nutzungs­daten",
+              "dataTypes": ["Produkt­interaktion", "Werbedaten"],
+              "identifier": "USAGE_DATA"
+            }, {
+              "dataCategory": "Diagnose",
+              "dataTypes": ["Leistungsdaten"],
+              "identifier": "DIAGNOSTICS"
+            }, {
+              "dataCategory": "Sonstige Daten",
+              "dataTypes": ["Sonstige Datentypen"],
+              "identifier": "OTHER"
+            }],
+            "identifier": "APP_FUNCTIONALITY",
+            "purpose": "App-Funktionalität"
+          }]
+        }, {
+          "dataCategories": [],
+          "description": "Die folgenden Daten, die zwar möglicherweise erfasst, aber nicht mit deiner Identität verknüpft werden, können für die folgenden Zwecke verwendet werden:",
+          "identifier": "DATA_NOT_LINKED_TO_YOU",
+          "privacyType": "Nicht mit dir verknüpfte Daten",
+          "purposes": [{
+            "dataCategories": [{
+              "dataCategory": "Diagnose",
+              "dataTypes": ["Crash-Daten"],
+              "identifier": "DIAGNOSTICS"
+            }],
+            "identifier": "THIRD_PARTY_ADVERTISING",
+            "purpose": "Drittanbieter-Werbung"
+          }, {
+            "dataCategories": [{
+              "dataCategory": "Diagnose",
+              "dataTypes": ["Crash-Daten"],
+              "identifier": "DIAGNOSTICS"
+            }],
+            "identifier": "ANALYTICS",
+            "purpose": "Analyse"
+          }, {
+            "dataCategories": [{
+              "dataCategory": "Diagnose",
+              "dataTypes": ["Crash-Daten"],
+              "identifier": "DIAGNOSTICS"
+            }],
+            "identifier": "APP_FUNCTIONALITY",
+            "purpose": "App-Funktionalität"
+          }]
+        }]
+      }
+    },
+    "href": "/v1/catalog/de/apps/1274947275?l=de-DE",
+    "id": "1274947275",
+    "relationships": {
+      "developer": {
+        "data": [{
+          "href": "/v1/catalog/de/developers/934334114?l=de-DE",
+          "id": "934334114",
+          "type": "developers"
+        }],
+        "href": "/v1/catalog/de/apps/1274947275/developer?l=de-DE"
+      },
+      "genres": {
+        "data": [{
+          "href": "/v1/catalog/de/genres/6014?l=de-DE",
+          "id": "6014",
+          "type": "genres"
+        }, {
+          "href": "/v1/catalog/de/genres/6016?l=de-DE",
+          "id": "6016",
+          "type": "genres"
+        }, {
+          "href": "/v1/catalog/de/genres/7015?l=de-DE",
+          "id": "7015",
+          "type": "genres"
+        }, {
+          "href": "/v1/catalog/de/genres/7014?l=de-DE",
+          "id": "7014",
+          "type": "genres"
+        }],
+        "href": "/v1/catalog/de/apps/1274947275/genres?l=de-DE"
+      }
+    },
+    "type": "apps"
+  }]
+}

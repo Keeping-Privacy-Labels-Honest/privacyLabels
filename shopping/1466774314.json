@@ -1,0 +1,31 @@
+{
+  "data": [{
+    "attributes": {
+      "privacyDetails": {
+        "managePrivacyChoicesUrl": null,
+        "privacyTypes": []
+      }
+    },
+    "href": "/v1/catalog/de/apps/1466774314?l=de-DE",
+    "id": "1466774314",
+    "relationships": {
+      "developer": {
+        "data": [{
+          "href": "/v1/catalog/de/developers/1465902660?l=de-DE",
+          "id": "1465902660",
+          "type": "developers"
+        }],
+        "href": "/v1/catalog/de/apps/1466774314/developer?l=de-DE"
+      },
+      "genres": {
+        "data": [{
+          "href": "/v1/catalog/de/genres/6024?l=de-DE",
+          "id": "6024",
+          "type": "genres"
+        }],
+        "href": "/v1/catalog/de/apps/1466774314/genres?l=de-DE"
+      }
+    },
+    "type": "apps"
+  }]
+}

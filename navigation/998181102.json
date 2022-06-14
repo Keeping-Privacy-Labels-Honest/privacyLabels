@@ -1,0 +1,123 @@
+{
+  "data": [{
+    "attributes": {
+      "privacyDetails": {
+        "managePrivacyChoicesUrl": null,
+        "privacyTypes": [{
+          "dataCategories": [],
+          "description": "Die folgenden Daten, die m?glicherweise erfasst und mit deiner Identit?t verkn?pft werden, k?nnen f?r die folgenden Zwecke verwendet werden:",
+          "identifier": "DATA_LINKED_TO_YOU",
+          "privacyType": "Mit dir verkn?pfte Daten",
+          "purposes": [{
+            "dataCategories": [{
+              "dataCategory": "Kontakt?informa?tionen",
+              "dataTypes": ["E-Mail-Adresse"],
+              "identifier": "CONTACT_INFO"
+            }],
+            "identifier": "DEVELOPERS_ADVERTISING",
+            "purpose": "Werbung oder Marketing des Entwicklers"
+          }, {
+            "dataCategories": [{
+              "dataCategory": "Gekaufte Artikel",
+              "dataTypes": ["Einkaufsverlauf"],
+              "identifier": "PURCHASES"
+            }, {
+              "dataCategory": "Nutzungs?daten",
+              "dataTypes": ["Produkt?interaktion"],
+              "identifier": "USAGE_DATA"
+            }],
+            "identifier": "ANALYTICS",
+            "purpose": "Analyse"
+          }, {
+            "dataCategories": [{
+              "dataCategory": "Gekaufte Artikel",
+              "dataTypes": ["Einkaufsverlauf"],
+              "identifier": "PURCHASES"
+            }, {
+              "dataCategory": "Kontakt?informa?tionen",
+              "dataTypes": ["E-Mail-Adresse", "Sonstige Benutzer-Kontaktinforma?tionen"],
+              "identifier": "CONTACT_INFO"
+            }, {
+              "dataCategory": "Suchverlauf",
+              "dataTypes": ["Suchverlauf"],
+              "identifier": "SEARCH_HISTORY"
+            }, {
+              "dataCategory": "Kennungen",
+              "dataTypes": ["Benutzer-ID", "Ger?te-ID"],
+              "identifier": "IDENTIFIERS"
+            }, {
+              "dataCategory": "Nutzungs?daten",
+              "dataTypes": ["Produkt?interaktion"],
+              "identifier": "USAGE_DATA"
+            }],
+            "identifier": "PRODUCT_PERSONALIZATION",
+            "purpose": "Produkt?personalisierung"
+          }, {
+            "dataCategories": [{
+              "dataCategory": "Gekaufte Artikel",
+              "dataTypes": ["Einkaufsverlauf"],
+              "identifier": "PURCHASES"
+            }, {
+              "dataCategory": "Kontakt?informa?tionen",
+              "dataTypes": ["E-Mail-Adresse", "Sonstige Benutzer-Kontaktinforma?tionen"],
+              "identifier": "CONTACT_INFO"
+            }, {
+              "dataCategory": "Suchverlauf",
+              "dataTypes": ["Suchverlauf"],
+              "identifier": "SEARCH_HISTORY"
+            }, {
+              "dataCategory": "Kennungen",
+              "dataTypes": ["Benutzer-ID", "Ger?te-ID"],
+              "identifier": "IDENTIFIERS"
+            }, {
+              "dataCategory": "Nutzungs?daten",
+              "dataTypes": ["Produkt?interaktion"],
+              "identifier": "USAGE_DATA"
+            }],
+            "identifier": "APP_FUNCTIONALITY",
+            "purpose": "App-Funktionalit?t"
+          }]
+        }, {
+          "dataCategories": [],
+          "description": "Die folgenden Daten, die zwar m?glicherweise erfasst, aber nicht mit deiner Identit?t verkn?pft werden, k?nnen f?r die folgenden Zwecke verwendet werden:",
+          "identifier": "DATA_NOT_LINKED_TO_YOU",
+          "privacyType": "Nicht mit dir verkn?pfte Daten",
+          "purposes": [{
+            "dataCategories": [{
+              "dataCategory": "Diagnose",
+              "dataTypes": ["Crash-Daten"],
+              "identifier": "DIAGNOSTICS"
+            }],
+            "identifier": "OTHER_PURPOSES",
+            "purpose": "Sonstige Zwecke"
+          }]
+        }]
+      }
+    },
+    "href": "/v1/catalog/de/apps/998181102?l=de-DE",
+    "id": "998181102",
+    "relationships": {
+      "developer": {
+        "data": [{
+          "href": "/v1/catalog/de/developers/998181101?l=de-DE",
+          "id": "998181101",
+          "type": "developers"
+        }],
+        "href": "/v1/catalog/de/apps/998181102/developer?l=de-DE"
+      },
+      "genres": {
+        "data": [{
+          "href": "/v1/catalog/de/genres/6010?l=de-DE",
+          "id": "6010",
+          "type": "genres"
+        }, {
+          "href": "/v1/catalog/de/genres/6001?l=de-DE",
+          "id": "6001",
+          "type": "genres"
+        }],
+        "href": "/v1/catalog/de/apps/998181102/genres?l=de-DE"
+      }
+    },
+    "type": "apps"
+  }]
+}

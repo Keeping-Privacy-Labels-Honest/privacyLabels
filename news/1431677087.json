@@ -1,0 +1,41 @@
+{
+  "data": [{
+    "attributes": {
+      "privacyDetails": {
+        "managePrivacyChoicesUrl": "https://wuppertal-total.de/datenschutz/",
+        "privacyTypes": [{
+          "dataCategories": [],
+          "description": "Der Entwickler erfasst keine Daten von dieser App.",
+          "identifier": "DATA_NOT_COLLECTED",
+          "privacyType": "Keine Daten erfasst",
+          "purposes": []
+        }]
+      }
+    },
+    "href": "/v1/catalog/de/apps/1431677087?l=de-DE",
+    "id": "1431677087",
+    "relationships": {
+      "developer": {
+        "data": [{
+          "href": "/v1/catalog/de/developers/1431677086?l=de-DE",
+          "id": "1431677086",
+          "type": "developers"
+        }],
+        "href": "/v1/catalog/de/apps/1431677087/developer?l=de-DE"
+      },
+      "genres": {
+        "data": [{
+          "href": "/v1/catalog/de/genres/6009?l=de-DE",
+          "id": "6009",
+          "type": "genres"
+        }, {
+          "href": "/v1/catalog/de/genres/6005?l=de-DE",
+          "id": "6005",
+          "type": "genres"
+        }],
+        "href": "/v1/catalog/de/apps/1431677087/genres?l=de-DE"
+      }
+    },
+    "type": "apps"
+  }]
+}

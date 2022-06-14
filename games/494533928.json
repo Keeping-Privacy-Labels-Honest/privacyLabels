@@ -1,0 +1,57 @@
+{
+  "data": [{
+    "attributes": {
+      "privacyDetails": {
+        "managePrivacyChoicesUrl": null,
+        "privacyTypes": [{
+          "dataCategories": [],
+          "description": "Die folgenden Daten, die zwar möglicherweise erfasst, aber nicht mit deiner Identität verknüpft werden, können für die folgenden Zwecke verwendet werden:",
+          "identifier": "DATA_NOT_LINKED_TO_YOU",
+          "privacyType": "Nicht mit dir verknüpfte Daten",
+          "purposes": [{
+            "dataCategories": [{
+              "dataCategory": "Gekaufte Artikel",
+              "dataTypes": ["Einkaufsverlauf"],
+              "identifier": "PURCHASES"
+            }, {
+              "dataCategory": "Benutzer­inhalte",
+              "dataTypes": ["Spielszenen­inhalte"],
+              "identifier": "USER_CONTENT"
+            }, {
+              "dataCategory": "Kennungen",
+              "dataTypes": ["Geräte-ID"],
+              "identifier": "IDENTIFIERS"
+            }],
+            "identifier": "APP_FUNCTIONALITY",
+            "purpose": "App-Funktionalität"
+          }]
+        }]
+      }
+    },
+    "href": "/v1/catalog/de/apps/494533928?l=de-DE",
+    "id": "494533928",
+    "relationships": {
+      "developer": {
+        "data": [{
+          "href": "/v1/catalog/de/developers/1050031927?l=de-DE",
+          "id": "1050031927",
+          "type": "developers"
+        }],
+        "href": "/v1/catalog/de/apps/494533928/developer?l=de-DE"
+      },
+      "genres": {
+        "data": [{
+          "href": "/v1/catalog/de/genres/6014?l=de-DE",
+          "id": "6014",
+          "type": "genres"
+        }, {
+          "href": "/v1/catalog/de/genres/7017?l=de-DE",
+          "id": "7017",
+          "type": "genres"
+        }],
+        "href": "/v1/catalog/de/apps/494533928/genres?l=de-DE"
+      }
+    },
+    "type": "apps"
+  }]
+}

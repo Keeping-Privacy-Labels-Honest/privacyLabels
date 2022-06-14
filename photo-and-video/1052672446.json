@@ -1,0 +1,147 @@
+{
+  "data": [{
+    "attributes": {
+      "privacyDetails": {
+        "managePrivacyChoicesUrl": null,
+        "privacyTypes": [{
+          "dataCategories": [{
+            "dataCategory": "Standort",
+            "dataTypes": ["Ungef?hrer Standort"],
+            "identifier": "LOCATION"
+          }, {
+            "dataCategory": "Kennungen",
+            "dataTypes": ["Ger?te-ID"],
+            "identifier": "IDENTIFIERS"
+          }, {
+            "dataCategory": "Nutzungs?daten",
+            "dataTypes": ["Produkt?interaktion", "Werbedaten"],
+            "identifier": "USAGE_DATA"
+          }, {
+            "dataCategory": "Diagnose",
+            "dataTypes": ["Crash-Daten", "Leistungsdaten"],
+            "identifier": "DIAGNOSTICS"
+          }],
+          "description": "Die folgenden Daten werden m?glicherweise verwendet, um dich ?ber Apps und Websites anderer Unternehmen hinweg zu verfolgen:",
+          "identifier": "DATA_USED_TO_TRACK_YOU",
+          "privacyType": "Daten, die zum Tracking deiner Person verwendet werden",
+          "purposes": []
+        }, {
+          "dataCategories": [],
+          "description": "Die folgenden Daten, die zwar m?glicherweise erfasst, aber nicht mit deiner Identit?t verkn?pft werden, k?nnen f?r die folgenden Zwecke verwendet werden:",
+          "identifier": "DATA_NOT_LINKED_TO_YOU",
+          "privacyType": "Nicht mit dir verkn?pfte Daten",
+          "purposes": [{
+            "dataCategories": [{
+              "dataCategory": "Standort",
+              "dataTypes": ["Ungef?hrer Standort"],
+              "identifier": "LOCATION"
+            }, {
+              "dataCategory": "Kennungen",
+              "dataTypes": ["Ger?te-ID"],
+              "identifier": "IDENTIFIERS"
+            }, {
+              "dataCategory": "Nutzungs?daten",
+              "dataTypes": ["Produkt?interaktion", "Werbedaten"],
+              "identifier": "USAGE_DATA"
+            }, {
+              "dataCategory": "Diagnose",
+              "dataTypes": ["Crash-Daten", "Leistungsdaten"],
+              "identifier": "DIAGNOSTICS"
+            }],
+            "identifier": "THIRD_PARTY_ADVERTISING",
+            "purpose": "Drittanbieter-Werbung"
+          }, {
+            "dataCategories": [{
+              "dataCategory": "Standort",
+              "dataTypes": ["Ungef?hrer Standort"],
+              "identifier": "LOCATION"
+            }, {
+              "dataCategory": "Kennungen",
+              "dataTypes": ["Ger?te-ID"],
+              "identifier": "IDENTIFIERS"
+            }, {
+              "dataCategory": "Nutzungs?daten",
+              "dataTypes": ["Produkt?interaktion", "Werbedaten"],
+              "identifier": "USAGE_DATA"
+            }, {
+              "dataCategory": "Diagnose",
+              "dataTypes": ["Crash-Daten", "Leistungsdaten"],
+              "identifier": "DIAGNOSTICS"
+            }],
+            "identifier": "DEVELOPERS_ADVERTISING",
+            "purpose": "Werbung oder Marketing des Entwicklers"
+          }, {
+            "dataCategories": [{
+              "dataCategory": "Standort",
+              "dataTypes": ["Ungef?hrer Standort"],
+              "identifier": "LOCATION"
+            }, {
+              "dataCategory": "Kennungen",
+              "dataTypes": ["Ger?te-ID"],
+              "identifier": "IDENTIFIERS"
+            }, {
+              "dataCategory": "Nutzungs?daten",
+              "dataTypes": ["Produkt?interaktion", "Werbedaten"],
+              "identifier": "USAGE_DATA"
+            }, {
+              "dataCategory": "Diagnose",
+              "dataTypes": ["Crash-Daten", "Leistungsdaten"],
+              "identifier": "DIAGNOSTICS"
+            }],
+            "identifier": "ANALYTICS",
+            "purpose": "Analyse"
+          }, {
+            "dataCategories": [{
+              "dataCategory": "Standort",
+              "dataTypes": ["Ungef?hrer Standort"],
+              "identifier": "LOCATION"
+            }, {
+              "dataCategory": "Nutzungs?daten",
+              "dataTypes": ["Werbedaten"],
+              "identifier": "USAGE_DATA"
+            }],
+            "identifier": "PRODUCT_PERSONALIZATION",
+            "purpose": "Produkt?personalisierung"
+          }, {
+            "dataCategories": [{
+              "dataCategory": "Standort",
+              "dataTypes": ["Ungef?hrer Standort"],
+              "identifier": "LOCATION"
+            }, {
+              "dataCategory": "Nutzungs?daten",
+              "dataTypes": ["Werbedaten"],
+              "identifier": "USAGE_DATA"
+            }],
+            "identifier": "APP_FUNCTIONALITY",
+            "purpose": "App-Funktionalit?t"
+          }]
+        }]
+      }
+    },
+    "href": "/v1/catalog/de/apps/1052672446?l=de-DE",
+    "id": "1052672446",
+    "relationships": {
+      "developer": {
+        "data": [{
+          "href": "/v1/catalog/de/developers/1042217020?l=de-DE",
+          "id": "1042217020",
+          "type": "developers"
+        }],
+        "href": "/v1/catalog/de/apps/1052672446/developer?l=de-DE"
+      },
+      "genres": {
+        "data": [{
+          "href": "/v1/catalog/de/genres/6008?l=de-DE",
+          "id": "6008",
+          "type": "genres"
+        }, {
+          "href": "/v1/catalog/de/genres/6012?l=de-DE",
+          "id": "6012",
+          "type": "genres"
+        }],
+        "href": "/v1/catalog/de/apps/1052672446/genres?l=de-DE"
+      }
+    },
+    "type": "apps"
+  }]
+}

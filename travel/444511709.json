@@ -1,0 +1,173 @@
+{
+  "data": [{
+    "attributes": {
+      "privacyDetails": {
+        "managePrivacyChoicesUrl": null,
+        "privacyTypes": [{
+          "dataCategories": [{
+            "dataCategory": "Kontakt­informa­tionen",
+            "dataTypes": ["E-Mail-Adresse", "Name"],
+            "identifier": "CONTACT_INFO"
+          }, {
+            "dataCategory": "Nutzungs­daten",
+            "dataTypes": ["Produkt­interaktion", "Werbedaten"],
+            "identifier": "USAGE_DATA"
+          }],
+          "description": "Die folgenden Daten werden möglicherweise verwendet, um dich über Apps und Websites anderer Unternehmen hinweg zu verfolgen:",
+          "identifier": "DATA_USED_TO_TRACK_YOU",
+          "privacyType": "Daten, die zum Tracking deiner Person verwendet werden",
+          "purposes": []
+        }, {
+          "dataCategories": [],
+          "description": "Die folgenden Daten, die möglicherweise erfasst und mit deiner Identität verknüpft werden, können für die folgenden Zwecke verwendet werden:",
+          "identifier": "DATA_LINKED_TO_YOU",
+          "privacyType": "Mit dir verknüpfte Daten",
+          "purposes": [{
+            "dataCategories": [{
+              "dataCategory": "Gekaufte Artikel",
+              "dataTypes": ["Einkaufsverlauf"],
+              "identifier": "PURCHASES"
+            }, {
+              "dataCategory": "Kontakt­informa­tionen",
+              "dataTypes": ["E-Mail-Adresse", "Name"],
+              "identifier": "CONTACT_INFO"
+            }, {
+              "dataCategory": "Nutzungs­daten",
+              "dataTypes": ["Produkt­interaktion", "Werbedaten"],
+              "identifier": "USAGE_DATA"
+            }],
+            "identifier": "THIRD_PARTY_ADVERTISING",
+            "purpose": "Drittanbieter-Werbung"
+          }, {
+            "dataCategories": [{
+              "dataCategory": "Gekaufte Artikel",
+              "dataTypes": ["Einkaufsverlauf"],
+              "identifier": "PURCHASES"
+            }, {
+              "dataCategory": "Kontakt­informa­tionen",
+              "dataTypes": ["E-Mail-Adresse", "Name"],
+              "identifier": "CONTACT_INFO"
+            }, {
+              "dataCategory": "Nutzungs­daten",
+              "dataTypes": ["Produkt­interaktion", "Werbedaten"],
+              "identifier": "USAGE_DATA"
+            }],
+            "identifier": "DEVELOPERS_ADVERTISING",
+            "purpose": "Werbung oder Marketing des Entwicklers"
+          }, {
+            "dataCategories": [{
+              "dataCategory": "Gekaufte Artikel",
+              "dataTypes": ["Einkaufsverlauf"],
+              "identifier": "PURCHASES"
+            }, {
+              "dataCategory": "Kontakt­informa­tionen",
+              "dataTypes": ["E-Mail-Adresse", "Name", "Telefonnummer"],
+              "identifier": "CONTACT_INFO"
+            }, {
+              "dataCategory": "Kennungen",
+              "dataTypes": ["Benutzer-ID", "Geräte-ID"],
+              "identifier": "IDENTIFIERS"
+            }, {
+              "dataCategory": "Nutzungs­daten",
+              "dataTypes": ["Produkt­interaktion", "Werbedaten"],
+              "identifier": "USAGE_DATA"
+            }],
+            "identifier": "ANALYTICS",
+            "purpose": "Analyse"
+          }, {
+            "dataCategories": [{
+              "dataCategory": "Gekaufte Artikel",
+              "dataTypes": ["Einkaufsverlauf"],
+              "identifier": "PURCHASES"
+            }, {
+              "dataCategory": "Kontakt­informa­tionen",
+              "dataTypes": ["E-Mail-Adresse", "Name", "Telefonnummer"],
+              "identifier": "CONTACT_INFO"
+            }, {
+              "dataCategory": "Kennungen",
+              "dataTypes": ["Benutzer-ID", "Geräte-ID"],
+              "identifier": "IDENTIFIERS"
+            }, {
+              "dataCategory": "Nutzungs­daten",
+              "dataTypes": ["Produkt­interaktion", "Werbedaten"],
+              "identifier": "USAGE_DATA"
+            }],
+            "identifier": "PRODUCT_PERSONALIZATION",
+            "purpose": "Produkt­personalisierung"
+          }, {
+            "dataCategories": [{
+              "dataCategory": "Gekaufte Artikel",
+              "dataTypes": ["Einkaufsverlauf"],
+              "identifier": "PURCHASES"
+            }, {
+              "dataCategory": "Finanz­informa­tionen",
+              "dataTypes": ["Zahlungsdaten"],
+              "identifier": "FINANCIAL_INFO"
+            }, {
+              "dataCategory": "Kontakt­informa­tionen",
+              "dataTypes": ["E-Mail-Adresse", "Name", "Telefonnummer"],
+              "identifier": "CONTACT_INFO"
+            }, {
+              "dataCategory": "Kennungen",
+              "dataTypes": ["Benutzer-ID", "Geräte-ID"],
+              "identifier": "IDENTIFIERS"
+            }, {
+              "dataCategory": "Nutzungs­daten",
+              "dataTypes": ["Produkt­interaktion", "Werbedaten"],
+              "identifier": "USAGE_DATA"
+            }],
+            "identifier": "APP_FUNCTIONALITY",
+            "purpose": "App-Funktionalität"
+          }]
+        }, {
+          "dataCategories": [],
+          "description": "Die folgenden Daten, die zwar möglicherweise erfasst, aber nicht mit deiner Identität verknüpft werden, können für die folgenden Zwecke verwendet werden:",
+          "identifier": "DATA_NOT_LINKED_TO_YOU",
+          "privacyType": "Nicht mit dir verknüpfte Daten",
+          "purposes": [{
+            "dataCategories": [{
+              "dataCategory": "Diagnose",
+              "dataTypes": ["Crash-Daten"],
+              "identifier": "DIAGNOSTICS"
+            }],
+            "identifier": "APP_FUNCTIONALITY",
+            "purpose": "App-Funktionalität"
+          }, {
+            "dataCategories": [{
+              "dataCategory": "Diagnose",
+              "dataTypes": ["Crash-Daten"],
+              "identifier": "DIAGNOSTICS"
+            }],
+            "identifier": "OTHER_PURPOSES",
+            "purpose": "Sonstige Zwecke"
+          }]
+        }]
+      }
+    },
+    "href": "/v1/catalog/de/apps/444511709?l=de-DE",
+    "id": "444511709",
+    "relationships": {
+      "developer": {
+        "data": [{
+          "href": "/v1/catalog/de/developers/444511712?l=de-DE",
+          "id": "444511712",
+          "type": "developers"
+        }],
+        "href": "/v1/catalog/de/apps/444511709/developer?l=de-DE"
+      },
+      "genres": {
+        "data": [{
+          "href": "/v1/catalog/de/genres/6003?l=de-DE",
+          "id": "6003",
+          "type": "genres"
+        }, {
+          "href": "/v1/catalog/de/genres/6000?l=de-DE",
+          "id": "6000",
+          "type": "genres"
+        }],
+        "href": "/v1/catalog/de/apps/444511709/genres?l=de-DE"
+      }
+    },
+    "type": "apps"
+  }]
+}

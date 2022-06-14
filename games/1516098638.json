@@ -1,0 +1,91 @@
+{
+  "data": [{
+    "attributes": {
+      "privacyDetails": {
+        "managePrivacyChoicesUrl": null,
+        "privacyTypes": [{
+          "dataCategories": [{
+            "dataCategory": "Kennungen",
+            "dataTypes": ["Geräte-ID"],
+            "identifier": "IDENTIFIERS"
+          }, {
+            "dataCategory": "Nutzungs­daten",
+            "dataTypes": ["Produkt­interaktion", "Werbedaten"],
+            "identifier": "USAGE_DATA"
+          }, {
+            "dataCategory": "Diagnose",
+            "dataTypes": ["Leistungsdaten"],
+            "identifier": "DIAGNOSTICS"
+          }],
+          "description": "Die folgenden Daten werden möglicherweise verwendet, um dich über Apps und Websites anderer Unternehmen hinweg zu verfolgen:",
+          "identifier": "DATA_USED_TO_TRACK_YOU",
+          "privacyType": "Daten, die zum Tracking deiner Person verwendet werden",
+          "purposes": []
+        }, {
+          "dataCategories": [],
+          "description": "Die folgenden Daten, die zwar möglicherweise erfasst, aber nicht mit deiner Identität verknüpft werden, können für die folgenden Zwecke verwendet werden:",
+          "identifier": "DATA_NOT_LINKED_TO_YOU",
+          "privacyType": "Nicht mit dir verknüpfte Daten",
+          "purposes": [{
+            "dataCategories": [{
+              "dataCategory": "Kennungen",
+              "dataTypes": ["Geräte-ID"],
+              "identifier": "IDENTIFIERS"
+            }, {
+              "dataCategory": "Nutzungs­daten",
+              "dataTypes": ["Produkt­interaktion", "Werbedaten"],
+              "identifier": "USAGE_DATA"
+            }],
+            "identifier": "THIRD_PARTY_ADVERTISING",
+            "purpose": "Drittanbieter-Werbung"
+          }, {
+            "dataCategories": [{
+              "dataCategory": "Diagnose",
+              "dataTypes": ["Leistungsdaten"],
+              "identifier": "DIAGNOSTICS"
+            }],
+            "identifier": "ANALYTICS",
+            "purpose": "Analyse"
+          }, {
+            "dataCategories": [{
+              "dataCategory": "Diagnose",
+              "dataTypes": ["Crash-Daten"],
+              "identifier": "DIAGNOSTICS"
+            }],
+            "identifier": "APP_FUNCTIONALITY",
+            "purpose": "App-Funktionalität"
+          }]
+        }]
+      }
+    },
+    "href": "/v1/catalog/de/apps/1516098638?l=de-DE",
+    "id": "1516098638",
+    "relationships": {
+      "developer": {
+        "data": [{
+          "href": "/v1/catalog/de/developers/1191495496?l=de-DE",
+          "id": "1191495496",
+          "type": "developers"
+        }],
+        "href": "/v1/catalog/de/apps/1516098638/developer?l=de-DE"
+      },
+      "genres": {
+        "data": [{
+          "href": "/v1/catalog/de/genres/6014?l=de-DE",
+          "id": "6014",
+          "type": "genres"
+        }, {
+          "href": "/v1/catalog/de/genres/7015?l=de-DE",
+          "id": "7015",
+          "type": "genres"
+        }, {
+          "href": "/v1/catalog/de/genres/7012?l=de-DE",
+          "id": "7012",
+          "type": "genres"
+        }],
+        "href": "/v1/catalog/de/apps/1516098638/genres?l=de-DE"
+      }
+    },
+    "type": "apps"
+  }]
+}

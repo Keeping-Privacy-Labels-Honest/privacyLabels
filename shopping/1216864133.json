@@ -1,0 +1,41 @@
+{
+  "data": [{
+    "attributes": {
+      "privacyDetails": {
+        "managePrivacyChoicesUrl": null,
+        "privacyTypes": [{
+          "dataCategories": [],
+          "description": "Der Entwickler erfasst keine Daten von dieser App.",
+          "identifier": "DATA_NOT_COLLECTED",
+          "privacyType": "Keine Daten erfasst",
+          "purposes": []
+        }]
+      }
+    },
+    "href": "/v1/catalog/de/apps/1216864133?l=de-DE",
+    "id": "1216864133",
+    "relationships": {
+      "developer": {
+        "data": [{
+          "href": "/v1/catalog/de/developers/1216864132?l=de-DE",
+          "id": "1216864132",
+          "type": "developers"
+        }],
+        "href": "/v1/catalog/de/apps/1216864133/developer?l=de-DE"
+      },
+      "genres": {
+        "data": [{
+          "href": "/v1/catalog/de/genres/6023?l=de-DE",
+          "id": "6023",
+          "type": "genres"
+        }, {
+          "href": "/v1/catalog/de/genres/6024?l=de-DE",
+          "id": "6024",
+          "type": "genres"
+        }],
+        "href": "/v1/catalog/de/apps/1216864133/genres?l=de-DE"
+      }
+    },
+    "type": "apps"
+  }]
+}

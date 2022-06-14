@@ -1,0 +1,69 @@
+{
+  "data": [{
+    "attributes": {
+      "privacyDetails": {
+        "managePrivacyChoicesUrl": null,
+        "privacyTypes": [{
+          "dataCategories": [],
+          "description": "Die folgenden Daten, die zwar m?glicherweise erfasst, aber nicht mit deiner Identit?t verkn?pft werden, k?nnen f?r die folgenden Zwecke verwendet werden:",
+          "identifier": "DATA_NOT_LINKED_TO_YOU",
+          "privacyType": "Nicht mit dir verkn?pfte Daten",
+          "purposes": [{
+            "dataCategories": [{
+              "dataCategory": "Diagnose",
+              "dataTypes": ["Crash-Daten"],
+              "identifier": "DIAGNOSTICS"
+            }],
+            "identifier": "ANALYTICS",
+            "purpose": "Analyse"
+          }, {
+            "dataCategories": [{
+              "dataCategory": "Standort",
+              "dataTypes": ["Genauer Standort", "Ungef?hrer Standort"],
+              "identifier": "LOCATION"
+            }, {
+              "dataCategory": "Kontakt?informa?tionen",
+              "dataTypes": ["Telefonnummer"],
+              "identifier": "CONTACT_INFO"
+            }, {
+              "dataCategory": "Benutzer?inhalte",
+              "dataTypes": ["Fotos oder Videos"],
+              "identifier": "USER_CONTENT"
+            }, {
+              "dataCategory": "Nutzungs?daten",
+              "dataTypes": ["Sonstige Nutzungsdaten"],
+              "identifier": "USAGE_DATA"
+            }],
+            "identifier": "APP_FUNCTIONALITY",
+            "purpose": "App-Funktionalit?t"
+          }]
+        }]
+      }
+    },
+    "href": "/v1/catalog/de/apps/1459747699?l=de-DE",
+    "id": "1459747699",
+    "relationships": {
+      "developer": {
+        "data": [{
+          "href": "/v1/catalog/de/developers/1459747698?l=de-DE",
+          "id": "1459747698",
+          "type": "developers"
+        }],
+        "href": "/v1/catalog/de/apps/1459747699/developer?l=de-DE"
+      },
+      "genres": {
+        "data": [{
+          "href": "/v1/catalog/de/genres/6017?l=de-DE",
+          "id": "6017",
+          "type": "genres"
+        }, {
+          "href": "/v1/catalog/de/genres/6003?l=de-DE",
+          "id": "6003",
+          "type": "genres"
+        }],
+        "href": "/v1/catalog/de/apps/1459747699/genres?l=de-DE"
+      }
+    },
+    "type": "apps"
+  }]
+}

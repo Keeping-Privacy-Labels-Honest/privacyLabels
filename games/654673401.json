@@ -1,0 +1,85 @@
+{
+  "data": [{
+    "attributes": {
+      "privacyDetails": {
+        "managePrivacyChoicesUrl": null,
+        "privacyTypes": [{
+          "dataCategories": [],
+          "description": "Die folgenden Daten, die möglicherweise erfasst und mit deiner Identität verknüpft werden, können für die folgenden Zwecke verwendet werden:",
+          "identifier": "DATA_LINKED_TO_YOU",
+          "privacyType": "Mit dir verknüpfte Daten",
+          "purposes": [{
+            "dataCategories": [{
+              "dataCategory": "Gekaufte Artikel",
+              "dataTypes": ["Einkaufsverlauf"],
+              "identifier": "PURCHASES"
+            }, {
+              "dataCategory": "Standort",
+              "dataTypes": ["Ungefährer Standort"],
+              "identifier": "LOCATION"
+            }, {
+              "dataCategory": "Kontakt­informa­tionen",
+              "dataTypes": ["E-Mail-Adresse", "Name"],
+              "identifier": "CONTACT_INFO"
+            }, {
+              "dataCategory": "Benutzer­inhalte",
+              "dataTypes": ["E-Mails oder Textnachrichten", "Fotos oder Videos", "Audio-Daten", "Spielszenen­inhalte", "Kundendienst", "Sonstige Benutzerinhalte"],
+              "identifier": "USER_CONTENT"
+            }, {
+              "dataCategory": "Kennungen",
+              "dataTypes": ["Benutzer-ID", "Geräte-ID"],
+              "identifier": "IDENTIFIERS"
+            }, {
+              "dataCategory": "Nutzungs­daten",
+              "dataTypes": ["Produkt­interaktion", "Werbedaten", "Sonstige Nutzungsdaten"],
+              "identifier": "USAGE_DATA"
+            }, {
+              "dataCategory": "Diagnose",
+              "dataTypes": ["Crash-Daten", "Leistungsdaten", "Sonstige Diagnosedaten"],
+              "identifier": "DIAGNOSTICS"
+            }, {
+              "dataCategory": "Sonstige Daten",
+              "dataTypes": ["Sonstige Datentypen"],
+              "identifier": "OTHER"
+            }],
+            "identifier": "APP_FUNCTIONALITY",
+            "purpose": "App-Funktionalität"
+          }]
+        }]
+      }
+    },
+    "href": "/v1/catalog/de/apps/654673401?l=de-DE",
+    "id": "654673401",
+    "relationships": {
+      "developer": {
+        "data": [{
+          "href": "/v1/catalog/de/developers/1493742816?l=de-DE",
+          "id": "1493742816",
+          "type": "developers"
+        }],
+        "href": "/v1/catalog/de/apps/654673401/developer?l=de-DE"
+      },
+      "genres": {
+        "data": [{
+          "href": "/v1/catalog/de/genres/6014?l=de-DE",
+          "id": "6014",
+          "type": "genres"
+        }, {
+          "href": "/v1/catalog/de/genres/6016?l=de-DE",
+          "id": "6016",
+          "type": "genres"
+        }, {
+          "href": "/v1/catalog/de/genres/7017?l=de-DE",
+          "id": "7017",
+          "type": "genres"
+        }, {
+          "href": "/v1/catalog/de/genres/7014?l=de-DE",
+          "id": "7014",
+          "type": "genres"
+        }],
+        "href": "/v1/catalog/de/apps/654673401/genres?l=de-DE"
+      }
+    },
+    "type": "apps"
+  }]
+}

@@ -1,0 +1,49 @@
+{
+  "data": [{
+    "attributes": {
+      "privacyDetails": {
+        "managePrivacyChoicesUrl": null,
+        "privacyTypes": [{
+          "dataCategories": [],
+          "description": "Die folgenden Daten, die zwar m?glicherweise erfasst, aber nicht mit deiner Identit?t verkn?pft werden, k?nnen f?r die folgenden Zwecke verwendet werden:",
+          "identifier": "DATA_NOT_LINKED_TO_YOU",
+          "privacyType": "Nicht mit dir verkn?pfte Daten",
+          "purposes": [{
+            "dataCategories": [{
+              "dataCategory": "Nutzungs?daten",
+              "dataTypes": ["Werbedaten"],
+              "identifier": "USAGE_DATA"
+            }],
+            "identifier": "THIRD_PARTY_ADVERTISING",
+            "purpose": "Drittanbieter-Werbung"
+          }]
+        }]
+      }
+    },
+    "href": "/v1/catalog/de/apps/920725470?l=de-DE",
+    "id": "920725470",
+    "relationships": {
+      "developer": {
+        "data": [{
+          "href": "/v1/catalog/de/developers/719880632?l=de-DE",
+          "id": "719880632",
+          "type": "developers"
+        }],
+        "href": "/v1/catalog/de/apps/920725470/developer?l=de-DE"
+      },
+      "genres": {
+        "data": [{
+          "href": "/v1/catalog/de/genres/6008?l=de-DE",
+          "id": "6008",
+          "type": "genres"
+        }, {
+          "href": "/v1/catalog/de/genres/6027?l=de-DE",
+          "id": "6027",
+          "type": "genres"
+        }],
+        "href": "/v1/catalog/de/apps/920725470/genres?l=de-DE"
+      }
+    },
+    "type": "apps"
+  }]
+}

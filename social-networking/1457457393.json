@@ -1,0 +1,9 @@
+{
+  "errors": [{
+    "code": "40400",
+    "detail": "Resource with requested id was not found",
+    "id": "M62OHSBLY7UTOUCGKO5QOK7HYA",
+    "status": "404",
+    "title": "Resource Not Found"
+  }]
+}
